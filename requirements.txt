@@ -1,0 +1,23 @@
+# File ini berisi daftar library Python yang dibutuhkan oleh Server FastAPI
+# (05_absensi_server.py) dan script Training (02_training_embedding.py)
+
+# --- Web Framework & Async ---
+fastapi
+uvicorn[standard]
+httpx  # Digunakan oleh FastAPI untuk API calls
+
+# --- Computer Vision & AI Core ---
+torch
+torchvision
+torchaudio
+numpy
+Pillow
+
+# --- Face Recognition Models ---
+facenet-pytorch
+
+# --- Text-to-Speech (TTS) Simulasi ---
+gtts
+
+# --- Utility ---
+python-multipart # Untuk menangani UploadFile (form-data) dari Klien
